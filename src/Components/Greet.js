@@ -1,8 +1,10 @@
 import React from "react";
-function Greet(){
+function Greet(props){
     return(
         <div>
-            Greetings from React
+            <p>Functional Component using props</p>
+            <h2>Greetings {props.name} is {props.role}!!</h2>
+            {props.children}
         </div>
     )
 }

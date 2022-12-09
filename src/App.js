@@ -9,7 +9,11 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Greet/>
+        <Greet name="Ravikiran" role="Learner">
+          <p>This is child element from Ravikiran Div</p>
+        </Greet>
+        <Greet name="Vamshi" role="SDE-Amazon"/>
+        <hr/>
         <Welcome></Welcome>
         <CreateElement/>
       </div>
