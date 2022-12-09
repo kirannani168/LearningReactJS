@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './App.css'; 
 import Counter from './Components/Counter';
 import CreateElement from './Components/CreateElement';
+import EventHandling from './Components/EventHandling';
 import Greet from './Components/Greet';
 import Message from './Components/Message';
 import Welcome from './Components/Welcome';
@@ -23,6 +24,8 @@ class App extends Component {
         <Message/>
         <hr/>
         <Counter/>
+        <hr/>
+        <EventHandling/>
         <hr/>
       </div>
     )
