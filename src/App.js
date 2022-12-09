@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react'
 import './App.css'; 
+import Counter from './Components/Counter';
 import CreateElement from './Components/CreateElement';
 import Greet from './Components/Greet';
 import Message from './Components/Message';
@@ -20,6 +21,8 @@ class App extends Component {
         <CreateElement/>
         <hr/>
         <Message/>
+        <hr/>
+        <Counter/>
         <hr/>
       </div>
     )
