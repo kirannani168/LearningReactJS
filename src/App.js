@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './App.css'; 
 import CreateElement from './Components/CreateElement';
 import Greet from './Components/Greet';
+import Message from './Components/Message';
 import Welcome from './Components/Welcome';
 
 class App extends Component {
@@ -15,7 +16,11 @@ class App extends Component {
         <Greet name="Vamshi" role="SDE-Amazon"/>
         <hr/>
         <Welcome></Welcome>
+        <hr/>
         <CreateElement/>
+        <hr/>
+        <Message/>
+        <hr/>
       </div>
     )
   }
