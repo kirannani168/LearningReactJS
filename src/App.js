@@ -8,6 +8,7 @@ import EventHandling from './Components/EventHandling';
 import Greet from './Components/Greet';
 import Message from './Components/Message';
 import ParentComponent from './Components/ParentComponent';
+import UserGreeting from './Components/UserGreeting';
 import Welcome from './Components/Welcome';
 
 class App extends Component {
@@ -32,6 +33,8 @@ class App extends Component {
         <EventBinding/>
         <hr/>
         <ParentComponent/>
+        <hr/>
+        <UserGreeting/>
         <hr/>
       </div>
     )
