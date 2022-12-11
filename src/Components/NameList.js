@@ -36,7 +36,7 @@ function NameList() {
             role: "MME"
         },
         {
-            id:2,
+            id:3,
             name: "Nikhil",
             age:21,
             role: "Student"
@@ -48,7 +48,7 @@ function NameList() {
     // ))
 
     const personList = persons.map(person => (
-        <Person person = {person}/>
+        <Person key={person.id} person = {person}/>
     ))
     return <div>{personList}</div>
 }
