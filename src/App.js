@@ -5,6 +5,7 @@ import Counter from './Components/Counter';
 import CreateElement from './Components/CreateElement';
 import EventBinding from './Components/EventBinding';
 import EventHandling from './Components/EventHandling';
+import Form from './Components/Form';
 import Greet from './Components/Greet';
 import InlineCSS from './Components/InlineCSS';
 import Message from './Components/Message';
@@ -44,6 +45,8 @@ class App extends Component {
         <Styles primary={true}/>
         <hr/>
         <InlineCSS/>
+        <hr/>
+        <Form/>
         <hr/>
       </div>
     )
