@@ -7,6 +7,7 @@ import EventBinding from './Components/EventBinding';
 import EventHandling from './Components/EventHandling';
 import Greet from './Components/Greet';
 import Message from './Components/Message';
+import NameList from './Components/NameList';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import Welcome from './Components/Welcome';
@@ -35,6 +36,8 @@ class App extends Component {
         <ParentComponent/>
         <hr/>
         <UserGreeting/>
+        <hr/>
+        <NameList/>
         <hr/>
       </div>
     )
