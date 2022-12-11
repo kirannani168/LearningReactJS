@@ -6,9 +6,11 @@ import CreateElement from './Components/CreateElement';
 import EventBinding from './Components/EventBinding';
 import EventHandling from './Components/EventHandling';
 import Greet from './Components/Greet';
+import InlineCSS from './Components/InlineCSS';
 import Message from './Components/Message';
 import NameList from './Components/NameList';
 import ParentComponent from './Components/ParentComponent';
+import Styles from './Components/Styles';
 import UserGreeting from './Components/UserGreeting';
 import Welcome from './Components/Welcome';
 
@@ -38,6 +40,10 @@ class App extends Component {
         <UserGreeting/>
         <hr/>
         <NameList/>
+        <hr/>
+        <Styles primary={true}/>
+        <hr/>
+        <InlineCSS/>
         <hr/>
       </div>
     )
